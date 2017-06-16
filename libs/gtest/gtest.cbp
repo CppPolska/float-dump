@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\tests\;CMake Files\tests\gtest-lib\;CMake Files\tests\gtest-lib\cmake\;CMake Files\tests\unit-tests\;CMake Files\tests\integration-tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/src"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/unit-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/integration-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/include"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/src"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/unit-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/integration-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/include"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/src"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/unit-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/integration-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/include"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/src"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/unit-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/integration-tests"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/include"/>
+					<Add directory="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/gtest-lib/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\tests\gtest-lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/unit-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\unit-tests\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/unit-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\unit-tests\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/integration-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\integration-tests\"/>
+		</Unit>
+		<Unit filename="/Users/senghe/Desktop/Documents/Di/tests/integration-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\integration-tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
