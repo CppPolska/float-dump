@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "FloatingPoint.hpp"
+#include "classes/FloatingPoint.hpp"
 
 /*
  * Sources:

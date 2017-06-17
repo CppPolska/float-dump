@@ -61,20 +61,3 @@ std::string FloatingPoint::signBits () {
 bool FloatingPoint::isZero() {
     return this->cast.parts.sign == 0 && this->cast.parts.exponent == 0 && this->cast.parts.mantisa == 0;
 }
-
-FLOATING_TYPE FloatingPoint::add(FLOATING_TYPE, FLOATING_TYPE) {
-    return 0;
-}
-
-FLOATING_TYPE FloatingPoint::sub(FLOATING_TYPE, FLOATING_TYPE) {
-    return 0;
-}
-
-FLOATING_TYPE FloatingPoint::multi(FLOATING_TYPE, FLOATING_TYPE) {
-    return 0;
-}
-
-FLOATING_TYPE FloatingPoint::div(FLOATING_TYPE, FLOATING_TYPE) {
-    return 0;
-}
-

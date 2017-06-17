@@ -33,11 +33,6 @@ public:
     std::string exponentBits();
     std::string signBits();
 
-    FLOATING_TYPE add(FLOATING_TYPE, FLOATING_TYPE);
-    FLOATING_TYPE sub(FLOATING_TYPE, FLOATING_TYPE);
-    FLOATING_TYPE multi(FLOATING_TYPE, FLOATING_TYPE);
-    FLOATING_TYPE div(FLOATING_TYPE, FLOATING_TYPE);
-
 private:
 
     typedef union {

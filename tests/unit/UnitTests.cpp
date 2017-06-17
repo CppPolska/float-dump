@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "FloatingPoint.hpp"
+#include "classes/FloatingPoint.hpp"
 
 TEST(UnitTests, test_bits_equals) {
     FloatingPoint point(3.14);
