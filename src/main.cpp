@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "classes/FloatingPoint.hpp"
+#include "classes/Float.hpp"
 
 /*
  * Sources:
@@ -12,9 +12,9 @@
  */
 
 int main() {
-    FLOATING_TYPE f = -123.45;
+    float f = -123.45;
 
-    FloatingPoint dump(f);
+    Float dump(f);
 
     std::cout << "Dumping bits..." << std::endl;
     std::cout << "Full dump:\t\t\t" << dump.bits() << std::endl;
